@@ -1,0 +1,494 @@
+@charset "UTF-8";
+
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+.section-title {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 30px 0;
+  text-align: center;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.wrap {
+  width: 80%;
+  margin: 0 auto 50px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.between {
+  justify-content: space-between;
+}
+
+.around {
+  justify-content: space-around;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+    font-size: 20px;
+    padding: 10px 30px;
+    background-color: black;
+    color: #f2f2f2;
+}
+
+.header p {
+    font-weight: bold;
+}
+
+.header-nav-list {
+    display: flex;
+}
+
+.header-nav-list a {
+    text-decoration: none;
+}
+
+.header-nav-item {
+    color: #f2f2f2;
+    padding: 20px;
+    text-decoration: underline;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+#home {
+    height: 800px;
+    background: url(../img/eyecatch.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.home-text {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    top: 55%;
+    left: 10%;
+
+}
+
+.news {
+    background-color: white;
+    width: 50%;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.news p {
+    color: black;
+    display: flex;
+    justify-content: flex-start;
+    padding: 5px;
+}
+
+.news-text {
+    text-indent: 10px;
+    font-size: 14px;
+}
+
+.news a {
+    width: 200px;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    top: 0;
+    left: 79%;
+}
+
+#about {
+    height: 600px;
+    background-color: black;
+    position: relative;
+
+}
+
+.mission img {
+    background-size: cover;
+    width: 40%;
+    height: 80%;
+    position: absolute;
+    top: 30%;
+    left: 55%;
+}
+
+.mission h3,
+.mission p,
+.mission a {
+    position: absolute;
+    left: 20%;
+    color: white;
+    width: 50%;
+}
+
+.mission h3 {
+    position: absolute;
+    top: 35%;
+    font-size: 28px;
+}
+
+.mission p {
+    position: absolute;
+    top: 48%;
+    line-height: 25px;
+}
+
+.mission a {
+    background-color: white;
+    width: 200px;
+    height: 40px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    position: absolute;
+    top: 65%;
+}
+
+#service {
+    background-color: #e5e5e5;
+    height: 1390px;
+    margin-top: 150px;
+    position: relative;
+}
+
+#service 
+.section-title {
+
+    padding-top: 10px;
+}
+
+.service-content img {
+    width: 50%;
+    height: 550px;
+}
+
+.service-img1 {
+    position: relative;
+    left: 951px;
+}
+
+.service-item1 {
+    background-color: white;
+    width: 730px;
+    height: 300px;
+    position: absolute;
+    top: 15%;
+    left: 20%;
+}
+
+.item-child1 {
+    padding: 80px 70px;
+}
+
+.item-child1 p {
+    padding-top: 15px;
+    line-height: 20px;
+}
+
+.item-child1 a {
+    border: 1px solid black;
+    padding: 10px 40px;
+    position: absolute;
+    top: 68%;
+    left: 64%;
+    text-decoration: none;
+    color: black;
+}
+
+.service-item2 {
+    background-color: white;
+    width: 730px;
+    height: 300px;
+    position: absolute;
+    top: 52%;
+    left: 40%;
+}
+
+.item-child2 {
+    padding: 80px 70px;
+}
+
+.item-child2 p {
+    padding-top: 15px;
+    line-height: 20px;
+}
+
+.item-child2 a {
+    border: 1px solid black;
+    padding: 10px 40px;
+    position: absolute;
+    top: 68%;
+    left: 64%;
+    text-decoration: none;
+    color: black;
+}
+
+#works {
+    position: relative;
+    margin-top: 150px;
+}
+
+.company {
+    text-align: center;
+}
+
+#works img {
+    width: 48%;
+    height: 230px;
+}
+
+.company h2 {
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    color: white;
+    font-size: 40px;
+}
+
+.company-link {
+    position: absolute;
+    top: 45%;
+    left: 22.5%;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none
+}
+
+.recruit img {
+    position: absolute;
+    top: 0;
+    left: 52%;
+    height: 86.7%;
+}
+
+.recruit h2 {
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 75%;
+    font-size: 40px;
+}
+
+.recruit-link {
+    color: white;
+    position: absolute;
+    top: 48%;
+    left: 76.7%;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.faq {
+    background-color: black;
+    width: 60%;
+    height: 125px;
+    position: absolute;
+    top: 200%;
+    left: 20%;
+    color: white;
+}
+
+.faq h2 {
+    padding: 50px 30px;
+    font-size: 30px;
+}
+
+.faq-link {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    text-decoration: none;
+}
+
+#contact {
+    background: url(../img/contact-bg.jpg);
+    background-size: cover;
+    height: 500px;
+    color: white;
+    margin-top: 520px;
+    text-align: center;
+    padding-top: 200px;
+}
+
+#contact h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+#contact h3 {
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+
+.contact-text1 {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.contact-text2 {
+    margin-bottom: 50px;
+}
+
+.contact-content a {
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 10px 30px;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-between;
+    height: 55px;
+    padding: 10px 30px;
+    background-color: black;
+    color: #f2f2f2;
+}
+
+small {
+    margin-left: 40%;
+    margin-top: 50px;
+}
+
+.footer-nav-list {
+    display: flex;
+}
+
+.footer-nav-list a {
+    text-decoration: none;
+}
+
+.footer-nav-item {
+    color: #f2f2f2;
+    padding: 20px;
+    text-decoration: underline;
+    font-size: 16px;
+    text-decoration: none;
+}
